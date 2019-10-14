@@ -8,8 +8,8 @@ def oxford_comma(array)
     array[-1] = "and starfruit"
     array.join (", ")
   else array.length >= 4
-    array.join (", ")
     array[-1] = "and dragon fruits"
-  
+    array.join (", ")
+    
   end
 end
